@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+*{
+	font-family: lato;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+
+
+body{
+	 margin: 0;
+	 background-color: #1e272e;
+ }
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1500px){
+
+
+.indexmain{
+   width: 1199px;
+   height: 922px;
+   background-image: url(../img/shangindex.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+.secundariasmain{
+	width: 1199px;
+   height: 922px;
+   background-color: #000000;
+	background-position: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+header{
+	 display: flex;
+	 justify-content: space-between;
+	 width: 1199px;
+	 height: 100px;
+	 background-color: #000000;
+	 align-items: center;
+	 padding: 10px;
+ }
+
+.logo{
+	 margin-top: 15px;
+	 margin-left: 20px;
+	 display: flex;
+	 align-items: center;
+ }
+
+.shangchi{
+	
+	 margin-left: 10px;
+	 color: #ffffff;
+ }
+
+section{
+	 width: 1199px;
+	 height: 772px;
+ }
+
+
+footer {
+	 width: 1199px;
+	 height: 50px;
+	 background-color: #000;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+.logosisq{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 25px;
+ }
+
+.disney{
+	 display: flex;
+	 align-items: center;
+	 justify-content: right;
+	 margin-right: 25px;
+ }
+.trailer {
+font-size: 20px;
+	color: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.trailer a{
+	color: black;
+}
+
+p {
+	font-size: 14px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	 font-size: 22px;
+	 text-decoration: none;
+ }
+
+nav a{
+   text-decoration:none;
+   color:inherit;
+   font-size:18px;
+   align-items: center;
+   margin-top: 7px;
+   margin-left: 13px;
+ } 
+
+nav li{
+   display: inline-flex;
+  font-size: 18px;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
+ }
+
+nav li:hover{
+	 background: #000000;
+  color: #1E53C5;
+ }
+
+
+.galeria {
+width: 920px;
+  height: 732px;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.personajes {
+  width: 920px;
+  height: 640px;
+  align-items: center;
+  margin-top: 132px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.trivia {
+	color: #ffffff;
+	margin-left: 254px;
+padding-top: 30px;
+padding-bottom: 20px;
+font-size: 24px;
+}
+
+.form {
+  width: 690px;
+  height: 550;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.titulo {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.cajas{
+	width: 690px;
+	background-color: #ffffff;
+	font-size: 15px;
+	 border-color: #1E53C5;
+	   border-radius: 5px;
+}
+
+.postcreditos {
+  color: white;
+  font-size: 15px;
+}
+
+.boton {
+  font-size: 15px;
+  width: 140px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #000;
+  border-width: 3px;
+  border-color: #1E53C5;
+  border-style: solid;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #1E53C5;
+}
+
+.boton:hover {
+  background: #000000;
+  color: #1E53C5;
+
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){ 
+
+
+
+
+.indexmain{
+   width: 1399px;
+   height: 922px;
+   background-image: url(../img/shangindex.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+.secundariasmain{
+	width: 1399px;
+   height: 1122px;
+   background-color: #000000;
+	background-position: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+header{
+	 display: flex;
+	 justify-content: space-between;
+	 width: 1399px;
+	 height: 100px;
+	 background-color: #000000;
+	 align-items: center;
+	 padding: 10px;
+ }
+
+.logo{
+	 margin-top: 15px;
+	 margin-left: 20px;
+	 display: flex;
+	 align-items: center;
+ }
+
+.shangchi{
+	
+	 margin-left: 10px;
+	 color: #ffffff;
+ }
+
+section{
+	 width: 1399px;
+	 height: 772px;
+ }
+
+
+footer {
+	 width: 1399px;
+	 height: 50px;
+	 background-color: #000;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+.logosisq{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 25px;
+ }
+
+.disney{
+	 display: flex;
+	 align-items: center;
+	 justify-content: right;
+	 margin-right: 25px;
+ }
+.trailer {
+font-size: 28px;
+	color: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.trailer a{
+	color: black;
+}
+
+p {
+	font-size: 22px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	 font-size: 30px;
+	 text-decoration: none;
+ }
+
+nav a{
+   text-decoration:none;
+   color:inherit;
+   font-size:26px;
+   align-items: center;
+   margin-top: 7px;
+   margin-left: 23px;
+ } 
+
+nav li{
+   display: inline-flex;
+  font-size: 26px;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
+ }
+
+nav li:hover{
+	 background: #000000;
+  color: #1E53C5;
+ }
+
+
+.galeria {
+width: 920px;
+  height: 932px;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.personajes {
+  width: 920px;
+  height: 840px;
+  align-items: center;
+  margin-top: 132px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.trivia {
+	color: #ffffff;
+	margin-left: 254px;
+padding-top: 30px;
+padding-bottom: 20px;
+font-size: 32px;
+}
+
+.form {
+  width: 690px;
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.titulo {
+  color: white;
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.cajas{
+	width: 690px;
+	background-color: #ffffff;
+	font-size: 23px;
+	 border-color: #1E53C5;
+	   border-radius: 5px;
+}
+
+.postcreditos {
+  color: white;
+  font-size: 23px;
+}
+
+.boton {
+  font-size: 23px;
+  width: 140px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #000;
+  border-width: 3px;
+  border-color: #1E53C5;
+  border-style: solid;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #1E53C5;
+}
+
+.boton:hover {
+  background: #000000;
+  color: #1E53C5;
+
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+
+	.indexmain{
+   width: 790px;
+   height: 922px;
+   background-image: url(../img/shangindex2.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+.secundariasmain{
+	width: 790px;
+   height: 1400px;
+   background-color: #000000;
+	background-position: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+header{
+	 display: flex;
+	 justify-content: space-between;
+	 width: 790px;
+	 height: 100px;
+	 background-color: #000000;
+	 align-items: center;
+	 padding: 10px;
+ }
+
+.logo{
+	 margin-top: 15px;
+	 margin-left: 20px;
+	 display: flex;
+	 align-items: center;
+ }
+
+.shangchi{
+	
+	 margin-left: 10px;
+	 color: #ffffff;
+ }
+
+section{
+	 width: 790px;
+	 height: 772px;
+ }
+
+
+footer {
+	 width: 790px;
+	 height: 50px;
+	 background-color: #000;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+.logosisq{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 25px;
+ }
+
+.disney{
+	 display: flex;
+	 align-items: center;
+	 justify-content: right;
+	 margin-right: 25px;
+ }
+.trailer {
+font-size: 20px;
+	color: inherit;
+	display: flex;
+	align-items: center;
+margin-left: 110px;
+}
+.trailer a{
+	color: black;
+}
+
+p {
+	font-size: 18px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	 font-size: 26px;
+	 text-decoration: none;
+ }
+
+nav a{
+   text-decoration:none;
+   color:inherit;
+   font-size:21px;
+   align-items: center;
+   margin-top: 7px;
+   margin-left: 8px;
+ } 
+
+nav li{
+   display: inline-flex;
+  font-size: 21px;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
+ }
+
+nav li:hover{
+	 background: #000000;
+  color: #1E53C5;
+ }
+
+
+.galeria {
+width: 770px;
+  height: 1200px;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+
+.personajes {
+  width: 770px;
+  height: 800px;
+  align-items: center;
+  margin-top: 132px;
+  margin-left: 90px;
+}
+
+
+
+.trivia {
+	color: #ffffff;
+	margin-left: 254px;
+padding-top: 30px;
+padding-bottom: 20px;
+font-size: 28px;
+}
+
+.form {
+  width: 700px;
+  height: 1300;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.titulo {
+  color: white;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.cajas{
+	width: 710px;
+	background-color: #ffffff;
+	font-size: 19px;
+	 border-color: #1E53C5;
+	   border-radius: 5px;
+}
+
+.postcreditos {
+  color: white;
+  font-size: 19px;
+}
+
+.boton {
+  font-size: 19px;
+  width: 180px;
+  height: 60px;
+  margin-top: 15px;
+  background-color: #000;
+  border-width: 3px;
+  border-color: #1E53C5;
+  border-style: solid;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #1E53C5;
+}
+
+.boton:hover {
+  background: #000000;
+  color: #1E53C5;
+
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){  
+
+	.indexmain{
+   width: 590px;
+   height: 922px;
+   background-image: url(../img/shangindex3.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+.secundariasmain{
+	width: 590px;
+   height: 2350px;
+   background-color: #000000;
+	background-position: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+header{
+	 display: flex;
+	 justify-content: space-between;
+	 width: 590px;
+	 height: 100px;
+	 background-color: #000000;
+	 align-items: center;
+	 padding: 3px;
+ }
+
+
+.logo{
+	 margin-top: 1px;
+	 margin-left: 10px;
+	
+
+}
+
+.shangchi{
+	
+	 margin-left: 1px;
+	 color: #ffffff;
+ }
+
+section{
+	 width: 590px;
+	 height: 772px;
+ }
+
+
+footer {
+	 width: 590px;
+	 height: 50px;
+	 background-color: #000;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+.logosisq{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 25px;
+ }
+
+.disney{
+	 display: flex;
+	 align-items: center;
+	 justify-content: right;
+	 margin-right: 25px;
+ }
+.trailer {
+font-size: 20px;
+	color: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.trailer a{
+	color: black;
+}
+
+p {
+	font-size: 18px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	 font-size: 26px;
+	 text-decoration: none;
+ }
+
+nav a{
+   text-decoration:none;
+   color:inherit;
+   font-size:21px;
+   align-items: center;
+   margin-top: 7px;
+   margin-left: 13px;
+ } 
+
+nav li{
+   display: inline-flex;
+  font-size: 21px;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
+ }
+
+nav li:hover{
+	 background: #000000;
+  color: #1E53C5;
+ }
+
+
+.galeria {
+width: 570px;
+  height: 2150px;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+
+.personajes {
+  width: 770px;
+  height: 800px;
+  align-items: center;
+  margin-top: 132px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.trivia {
+	color: #ffffff;
+	margin-left: 254px;
+padding-top: 30px;
+padding-bottom: 20px;
+font-size: 28px;
+}
+
+.form {
+  width: 500px;
+  height: 2000;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.titulo {
+  color: white;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.cajas{
+	width: 500px;
+	background-color: #ffffff;
+	font-size: 19px;
+	 border-color: #1E53C5;
+	   border-radius: 5px;
+}
+
+.postcreditos {
+  color: white;
+  font-size: 19px;
+}
+
+.boton {
+  font-size: 19px;
+  width: 180px;
+  height: 60px;
+  margin-top: 15px;
+  background-color: #000;
+  border-width: 3px;
+  border-color: #1E53C5;
+  border-style: solid;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #1E53C5;
+}
+
+.boton:hover {
+  background: #000000;
+  color: #1E53C5;
+
+}
+}
